@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ConlangDictionary</string>
+    <string name="str_lbl_searchword">Word (in English):</string>
+    <string name="enterWordMsg">Enter English word...</string>
+</resources>

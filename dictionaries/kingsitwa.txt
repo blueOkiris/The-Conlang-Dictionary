@@ -67,13 +67,16 @@ time,dai
 all,taal
 food,maanz
 sleep,slum
-gilswa,sound
-jugizwa,speech
-us,use
-gisilpra,creation
-jugikin,teacher
-funapiwa,murder
-salfi,safe
+sound,gilswa
+speech,jugizwa
+use,us
+creation,gisilpra
+teacher,jugikin
+murder,funapiwa
+safe,salfi
+rock,esusaard
+mountain,susaarbata
+tiger,bistaalaard
 give,dumi
 hear,gilsu
 pull,taag
@@ -125,6 +128,10 @@ time,dai
 act,taal
 pop,pju
 jump over,pjidiplu
+see,gistija
+want,taacaarta
+tell,jugisu
+ask,tagjuwisu
 red,ruda
 brown,rudalk
 lazy,hipjulmin
@@ -135,3 +142,4 @@ this,tiks
 old,alt
 entire,tal
 all,tal
+use,usa

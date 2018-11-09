@@ -1,0 +1,11 @@
+#control {
+    display: grid;
+}
+
+#row1 {
+    grid-row: 1;
+}
+
+#row2 {
+    grid-row: 2;
+}

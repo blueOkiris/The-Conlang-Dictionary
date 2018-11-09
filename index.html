@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="theme.css">
+        <script type="text/Javascript" src="dict.js"></script>
+        <h1>The Conlang Dictionary</h1>
+        <p>Web application designed to facilitate creation and use of constructed languages (conlangs)</p>
+    </head>
+
+    <body>
+        <p> To use, load a dictionary from a file, and then use the textbox below to get a translation of a word either from a source language to a conlang or vice versa</p>
+        <div id="control">
+            <div id="row1">
+                <input type="text" id="tb_toConlang" alt="Translate word to Conlang">
+                <button id="btn_toCon" onclick="getWords();">Find word in Conlang</button>
+            </div>
+
+            <div id="row2">
+                <input type="text" id="tb_fromConlang" alt="Translate word from Conlang">
+                <button id="btn_fromCon" onclick="getTranslation();">Translate Conlang Word</button>
+            </div>
+        </div>
+    </body>
+</html>

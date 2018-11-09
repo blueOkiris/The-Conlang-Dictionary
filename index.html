@@ -9,6 +9,10 @@
     <body>
         <p> To use, load a dictionary from a file, and then use the textbox below to get a translation of a word either from a source language to a conlang or vice versa</p>
         <div id="control">
+            <div id="row0">
+                <input type="file" id="dict_file" onchange="readDict(event)"">
+            </div>
+
             <div id="row1">
                 <input type="text" id="tb_toConlang" alt="Translate word to Conlang">
                 <button id="btn_toCon" onclick="getWords();">Find word in Conlang</button>
@@ -18,6 +22,8 @@
                 <input type="text" id="tb_fromConlang" alt="Translate word from Conlang">
                 <button id="btn_fromCon" onclick="getTranslation();">Translate Conlang Word</button>
             </div>
+
+            <div id="output"></div>
         </div>
     </body>
 </html>

@@ -1,0 +1,137 @@
+thou,tu
+I,ika
+we,jee
+who,kwi
+what,kid
+When,kidait
+you,ju
+he/she/it,ja
+man,min
+mother,matel
+hand,gisil
+fire,paud
+bark,baba
+ash,esus
+worm,welmina
+knowledge,kin
+animal,bist
+plant,bata
+tree,bata
+flower,batnijaard
+father,paatela
+fox,bistkena
+dog,baabista
+up,ididji
+story,kinpra
+tragedy,kinpeldeka
+think,kinpletu
+king,talpetra
+lord,talpetra
+strength,aard
+life,fumi
+creation,giselpra
+side,kuji
+heart,carta
+love,caartbela
+barrier,nikini
+death,nafuna
+ability,ti
+fear,gripa
+loss,puupa
+apprentice,minijiki
+irony,nikenspa	
+sky,dija
+day,dija
+light,dija
+Later,dipra
+tomorrow,dipra
+now,dagist
+moment,ditag
+days,dijy
+week,dijy
+next week,dijepra
+last week,dijetag
+moon,daldja
+month,dal
+next month,daldjepra
+last month,daldjetag
+months,dala
+year,dala
+next year,dalpa
+last year,daletag
+years,daalaa
+long time,daalaa
+far future,daalaapra
+far past,daalaataag
+time,dai
+all,taal
+food,maanz
+sleep,slum
+gilswa,sound
+jugizwa,speech
+us,use
+gisilpra,creation
+jugikin,teacher
+funapiwa,murder
+salfi,safe
+give,dumi
+hear,gilsu
+pull,taag
+flow,plu
+spit,spju
+hunt,kaan
+have,gist
+eat,mans
+run,kalin
+sleep,slum
+exist together,min
+care,mate
+grab,gisa
+sieze,gisa
+hold,gisa
+burn,pau
+bark,bab
+cover,eswa
+cower,welmina
+know,kin
+act as an animal,bist
+garden,baat
+farm,baat
+protect,paate
+provide,paate
+sneak,bistken
+track,baabist
+move up,ididja
+tell stories,kinplu
+tell sad stories,kinpeldek
+think,kinpletu
+rule,talpete
+be strong,aard
+live,fum
+move right,kuji
+love,caarte
+love,caartabe
+die,nafuna
+fear,gripa
+learn,miniki
+light,dija
+see one later,diplu
+plan,dijeplu
+shine,daldja
+worship,dal
+worship,daldjeplu
+anualize,dala
+time,dai
+act,taal
+pop,pju
+jump over,pjidiplu
+red,ruda
+brown,rudalk
+lazy,hipjulmin
+black,dalk
+dark,dalk
+that,itad
+this,tiks
+old,alt
+entire,tal
+all,tal

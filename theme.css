@@ -2,10 +2,14 @@
     display: grid;
 }
 
-#row1 {
+#row0 {
     grid-row: 1;
 }
 
-#row2 {
+#row1 {
     grid-row: 2;
+}
+
+#row2 {
+    grid-row: 3;
 }

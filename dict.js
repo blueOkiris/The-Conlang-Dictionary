@@ -67,6 +67,58 @@ class Dictionary {
             return ret_translation;
         }
     }
+
+    ReverseTranslate(value, closest) {
+        let ret_translation = "";
+        
+        if(!closest) { // Find all exact matches
+            let key_index = this.Values.findIndex((element) => element == value);
+
+            let i = key_index + 1;
+            while(key_index != -1) {
+                ret_translation += ", " + this.Keys[key_index];
+                
+                key_index = this.Values.findIndex((element, index) => element == value && index >= i);
+                i = key_index + 1;
+            }
+
+            return ret_translation.substring(2);
+        } else { // Find closest word to match
+            ret_translation += "Closest matches: ";
+
+            let i = 0;
+            let distances = this.Values.map((element) => LevensteinDistance(value, element));
+            let minInd = 0;
+            let minimum = distances.reduce((prev, dist, index) => {
+                if(index >= i) {
+                    minInd = dist < prev ? index : minInd;
+                    return   dist < prev ? dist : prev
+                }
+
+                minInd = -1;
+                return -1;
+            });
+
+            i = minInd + 1;
+            while(minInd != -1) {
+                ret_translation += "\n\t(" + this.Values[minInd] + " => " + this.Keys[minInd] + ")";
+
+                minimum = distances.reduce((prev, dist, index) => {
+                    if(index >= i) {
+                        minInd = dist < prev ? index : minInd;
+                        i = minInd + 1;
+
+                        return   dist < prev ? dist : prev
+                    }
+    
+                    minInd = -1;
+                    return -1;
+                });
+            }
+            
+            return ret_translation;
+        }
+    }
 }
 
 var conDict = new Dictionary();
@@ -143,5 +195,14 @@ function getWords() {
 }
 
 function getTranslation() {
+    let word = document.getElementById("tb_fromConlang").value;
+    let translation = "";
 
+    if(word[0] == ":")
+        translation = conDict.ReverseTranslate(word.substring(1), true);
+    else
+        translation = conDict.ReverseTranslate(word, false);
+
+    let output = document.getElementById("output");
+    output.innerText = translation;
 }
